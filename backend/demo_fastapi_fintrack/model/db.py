@@ -5,7 +5,7 @@ db_config = {
     "host": "localhost",
     "user": "root",
     "password": "",
-    "database": "computerlaboratory2",
+    "database": "computerlaboratory",
     "port": 3306,
 }
 
