@@ -10,7 +10,7 @@
 ```
 -Miniconda
 -Python
-
+```
 ### Backend (using miniconda
 ```
   -Create new db named clums then
@@ -26,16 +26,17 @@
 ```
 
 ### To Run
-
+```
 -cd backend
 -conda activate clums
 -uvicorn main:app --reload
-
+```
 ### To run in Vscode
 ```
   ctrl+shift+p then search python select interpreter  
   select clums then new terminal (cmd)
-
+```
+```
   -cd backend
   -uvicorn main:app --reload
 ```
