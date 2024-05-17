@@ -1,11 +1,41 @@
-# what to install and run the backend
--download miniconda and python
-#what commands to create a environment in miniconda
+# How to Download and run
 
--conda create -n "env_name" pyhton=3.9
--pip install fastapi uvicorn mysql-connector-python
--pip install bcrypt
--pip install python-multipart
+## Cloning
 
-# to run the backend you use turn on the xampp and activate the apache and mysql
+```
+  -git clone https://github.com/Yukiiii2/CLUMS_backend)
+```
+
+## Files to download
+```
+-Miniconda
+-Python
+
+### Backend (using miniconda
+```
+  -Create new db named clums then
+  Import the clums.sql to phpmyadmin
+```
+
+### Setup
+```
+  -cd backend
+  -conda create -n clums python=3.9
+  -conda activate clums
+  -pip install uvicorn mysql-connector-python python multipart bcrypt
+```
+
+### To Run
+
+-cd backend
+-conda activate clums
 -uvicorn main:app --reload
+
+### To run in Vscode
+```
+  ctrl+shift+p then search python select interpreter  
+  select clums then new terminal (cmd)
+
+  -cd backend
+  -uvicorn main:app --reload
+```
