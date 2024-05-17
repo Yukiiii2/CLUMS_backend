@@ -3,7 +3,7 @@
 ## Cloning
 
 ```
-  -git clone https://github.com/Yukiiii2/CLUMS_backend)
+  -git clone https://github.com/Yukiiii2/CLUMS_backend
 ```
 
 ## Files to download
